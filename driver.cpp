@@ -22,10 +22,6 @@ int findLongestPalindrome(string st)
 	{
 		for(int j=0;j<=n;j++)	
 		{
-			if(i==0 || j==0)
-			{
-				arr[i][j]=0;
-			}
 			if(i==j)
 			{
 				arr[i][j]=1;
